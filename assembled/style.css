@@ -1,0 +1,33 @@
+
+#project_list {
+  width: 645px;
+}
+
+.project_row {
+  margin: 3px;
+  padding: 3px;
+  float: left;
+  width: 640px;
+  border-bottom: 1px solid #666;
+}
+
+.project_link {
+  text-decoration: none;
+  color: black;
+  font: bold 16pt Trebuchet MS;
+  width: 225px;
+  float: left;
+  text-align: left;
+}
+
+.project_link:hover {
+  text-decoration: none;
+  color: #3c3;
+}
+
+.project_description {
+  font: normal 12pt Helvetica;
+  color: #000;
+  padding-top: 9px;
+  text-align: left;
+}

@@ -1,0 +1,29 @@
+<html>
+  <%= @generation_warning %>
+  <head>
+    <title><%= @title %></title>
+  </head>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <body>
+
+    <div align="center">
+
+      <%= @header_html  %>
+
+      <div id="project_list">
+        <% @projects.each do |project| %>
+          <div id="project_#{project.name}" class="project_row">
+             <a href="<%= project.link %>" class="project_link"><%= project.name %></a>
+             <div class="project_description"><%= project.description %></div>
+          </div>
+        <% end %>
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>
