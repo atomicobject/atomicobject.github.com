@@ -27,7 +27,7 @@ module AtomicObjectRb
 #        "Constructor", "#{@site}/constructor", "Initialization using named arguments", 
 #        "DIY",         "#{@site}/diy",         "Dependency injection using YAML", 
 #        "Injection",   "#{@site}/injection",   "Dependency injection plugin for Rails", 
-#        "Publisher",   "#{@site}/publisher",   "Event firing and subscription management", 
+        "Publisher",   "#{@site}/publisher",   "Event firing and subscription management", 
         "Hardmock",    "#{@site}/hardmock",    "Strict, ordered mock objects and stubs", 
       ])
     end
