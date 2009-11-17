@@ -29,7 +29,7 @@ module AtomicObjectRb
 #        "Injection",   "#{@site}/injection",   "Dependency injection plugin for Rails", 
         "Publisher",   "#{@site}/publisher",   "Event firing and subscription management", 
         "Hardmock",    "#{@site}/hardmock",    "Strict, ordered mock objects and stubs", 
-        "Minilab",    "http://github.com/atomicobject/minilab", "Ruby interface to Measurement Computing's miniLAB 1008", 
+        "Minilab",    "#{@site}/minilab", "Ruby interface to Measurement Computing's miniLAB 1008", 
       ])
     end
 
