@@ -25,7 +25,7 @@ module AtomicObjectRb
       @projects = make_projects([
         :name,         :link,                  :description,
 #        "Constructor", "#{@site}/constructor", "Initialization using named arguments", 
-#        "DIY",         "#{@site}/diy",         "Dependency injection using YAML", 
+        "DIY",         "#{@site}/diy",         "Dependency injection using YAML", 
 #        "Injection",   "#{@site}/injection",   "Dependency injection plugin for Rails", 
         "Publisher",   "#{@site}/publisher",   "Event firing and subscription management", 
         "Hardmock",    "#{@site}/hardmock",    "Strict, ordered mock objects and stubs", 
